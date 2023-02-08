@@ -1,18 +1,79 @@
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Portfolio">
-    <meta name="description" content="Proyecto Final de Argentina Programa" >
-    <meta name="author" content="Lucía Soraire">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Portfolio" />
+    <meta name="description" content="Proyecto Final de Argentina Programa" />
+    <meta name="author" content="Lucía Soraire" />
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header></header>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Portfolio<b>.</b></div>
+          <ul class="navItems">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre mí</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Reseñas</a></li>
+          </ul>
+          <div class="links">
+            <a href="#"><i class="bi bi-github"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-chat-right-dots-fill"></i></a>
+          </div>
+        </nav>
+        <div class="wrapper">
+          <div class="cols cols0">
+            <span class="topline">HOLA</span>
+            <h1>Soy <span class="multiText"></span></h1>
+            <p>
+                Soy una diseñadora y estudiante de programación en Argentina. Me gusta trabajar en el front-end de la web. Este es mi sitio, donde escribo y comparto los proyectos en los que he estado trabajando. La mayor parte de mi código personal está en GitHub.
+            </p>
+            <div class="btns">
+              <button>Descargar CV</button>
+              <button>Contáctame</button>
+            </div>
+          </div>
+          <div class="cols cols1">
+            <div class="imgbox">
+                <img src="img/FotoLuciaConFondo1_Mesa de trabajo 1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typingEffect = new Typed(".multiText", {
+        strings: ["Lucía", "Programadora", "Diseñadora"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
 </html>
