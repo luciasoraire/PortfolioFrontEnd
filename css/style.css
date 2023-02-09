@@ -399,7 +399,7 @@ ul{
     height: 190px;
     background-color: #ECE9E5;
     border-radius: 15px;
-    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.062);
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0);
     transition: 0.5s;
     margin: 10px;
 }
@@ -496,6 +496,14 @@ overflow: hidden;
     opacity: 0.5;
 }
 
+.textoproyecto{
+    display: flex;
+}
+
+.descripcionproyecto{
+    align-self: center;
+    text-align: justify;
+}
 
 @keyframes fadeIn{
     0%{
